@@ -1,0 +1,208 @@
+/**header */
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #f78b59fb;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.ugo {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  text-align: center;
+  align-items: stretch;
+}
+
+.logo {
+  width: 60%;
+  padding-top: 20px;
+}
+
+.ugo h1 {
+  align-self: center;
+  font-size: 30px;
+}
+
+.nav-line {
+  border: 0;
+  border-top: 1px solid black;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: auto 20vw;
+  margin-top: 2vw;
+}
+
+/** Size Choice Page */
+
+.chooseStyle {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.chooseStyle h2 {
+  padding-bottom: 10px;
+}
+
+.chooseStyle button {
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 10px 10px;
+  border-color: #efefef;
+  border-style: solid;
+  font-size: large;
+  cursor: pointer;
+}
+
+.listItems {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.listItems:hover {
+  color: whitesmoke;
+}
+
+.listItems:focus {
+  border-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 1px;
+}
+
+/** Style for the render Elements*/
+.PizzaList a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+/** Sauce Choice Page */
+
+.SauceStyle {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.SauceStyle h2 {
+  padding-bottom: 10px;
+}
+
+.SauceStyle button {
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 10px 10px;
+  border-color: #efefef;
+  border-style: solid;
+  font-size: large;
+  cursor: pointer;
+}
+
+.SauceStyle ul {
+  font-size: 25px;
+}
+
+.ButtonRow {
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ButtonRow button {
+  margin: 0 10px;
+}
+
+/** Toppings Page */
+
+.ToppingsStyle {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ToppingsStyle h2 {
+  padding-bottom: 10px;
+}
+
+.ToppingsStyle button {
+  border-radius: 20px;
+  margin: 20px 10px;
+  padding: 10px 10px;
+  border-color: #efefef;
+  border-style: solid;
+  font-size: large;
+  cursor: pointer;
+}
+
+.ToppingsStyle ul li {
+  font-size: 25px;
+  list-style: none;
+}
+
+/** Order Page*/
+
+.OrderStyle {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.OrderStyle h2 {
+  font-size: 35px;
+}
+
+.OrderStyle button {
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 10px 10px;
+  border-color: #efefef;
+  border-style: solid;
+  font-size: large;
+  cursor: pointer;
+}
+.order-Box {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  border-style: solid;
+  border-color: black;
+  margin: 20px 35%;
+}
+
+/** icon next to list item */
+
+.IconAfterButton::before {
+  list-style: none;
+  content: " + ";
+  position: relative;
+  top: -2px;
+  margin-right: 6px;
+  transform: scale(0.8, 1);
+  display: inline-block;
+  color: white;
+}
+
+.IconAfterButton:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
